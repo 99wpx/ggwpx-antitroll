@@ -1,5 +1,7 @@
 # antitroll
 
+![Capture](https://github.com/user-attachments/assets/8c5033f5-cb19-4248-9517-99e9f98d6762)
+
 
 ## Features
 - Admin Command to Toggle antitroll: /troll <id>
