@@ -1,0 +1,61 @@
+.content {
+    position: absolute;
+    bottom: 0;
+    right: 15vw;
+    width: auto;
+    height: 84px;
+    color: #00f8b9;
+    background: radial-gradient(
+        31.98% 56.85% at 50% 50%,
+        rgba(26, 29, 41, 0.9) 0%,
+        rgba(34, 37, 48, 0.92) 100%
+      );
+    border-radius: 5px 5px 5px 5px;
+    overflow: hidden;
+    border: 1px solid #00f8b9; /* Menambahkan border hijau */
+    box-sizing: border-box; /* Memastikan border tidak menambah lebar/tinggi */
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.newPlayer {
+    font-family: sans-serif; /* Font umum, ganti sesuai preferensi */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+
+    margin-block-start: 0%;
+    margin-block-end: 0%;
+
+    color: #E9E9E9;
+}
+
+.description {
+    font-family: sans-serif; /* Font umum, ganti sesuai preferensi */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    
+    margin-block-start: 0.3rem;
+    margin-block-end: 0.3rem;
+
+    color: #E9E9E9;
+}
+
+.timer {
+    font-family: sans-serif; /* Font umum, ganti sesuai preferensi */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 43px;
+    margin: 11px;
+
+    color: #00f8b9;
+}
+
+.main-text {
+    margin: 11px;
+}
